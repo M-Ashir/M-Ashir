@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+}
+
+#div1{
+    border-radius: 13px;
+    width: 300px;
+    height: 32.5em ;
+    margin-left: 37%;
+    margin-top: 7%;
+    font-family: inter;
+    background-color: hsl(0, 0%, 8%)
+}
+
+div img {
+    width: 5em;
+    height: 5em;
+    border-radius: 100%;
+    margin-left: 35%;
+    margin-top: 15%;
+}
+
+div h3 {
+    color: white;
+    margin-left: 7em;
+    font-size: 14px;
+}
+
+div #para1 {
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+    margin-left: 6.5em;
+    font-size: 12px;
+}
+
+div #para2 {
+    color: hsl(0, 0%, 100%);
+    margin-top: 2.5em;
+    font-size: 12px;
+    margin-left: 3.5em;
+}
+
+button {
+    display: block;
+    width: 18em;
+    height: 3em;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 13px;
+    position: relative;
+    top: 1.25em;
+    margin: 0px 0px 10px 30px;
+}
+
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: hsl(0, 0%, 8%);
+}
